@@ -28,11 +28,11 @@ private:
 
 public:
     bool isPalindrome(string s) {
-        string temp = "";   // FIX: empty string, not " "
+        string temp = "";   
 
         for (int j = 0; j < s.length(); j++) {
             if (valid(s[j])) {
-                temp.push_back(toLower(s[j])); // directly push lowercase
+                temp.push_back(toLower(s[j])); 
             }
         }
 
